@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Page</title>
+
+   
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Outfit:wght@600&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    
+    <header>
+      <img src="img/epicode_logo.png" alt="Epicode Logo" class="logo" />
+    </header>
+
+    <main class="main-content">
+      
+      <div class="timer">
+        <svg viewBox="0 0 200 200">
+          <circle class="circle-bg" cx="100" cy="100" r="90"></circle>
+          <circle class="circle" cx="100" cy="100" r="90" id="timer-circle"></circle>
+        </svg>
+        <p>SECONDS</p>
+        <p class="timer-seconds" id="timer-seconds">60</p>
+        <p>REMAINING</p>
+      </div>
+
+      
+      <div class="question-container">
+        <h1 class="question-title">
+          
+      </div>
+
+     
+      <div class="answers-container">
+        
+      </div>
+
+      
+      <div class="question-footer">
+        QUESTION <span class="current-question">1</span><span class="questions"> / </span><span class="total-questions">10</span>
+      </div>
+
+    </main>
+
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  </body>
+</html>
